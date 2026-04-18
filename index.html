@@ -111,7 +111,7 @@
   .hero-title .l2{display:block;color:transparent;-webkit-text-stroke:1px rgba(212,168,67,.3);}
   .hero-title .l3{display:block;background:linear-gradient(120deg,var(--gold2) 0%,var(--gold-bright) 40%,var(--gold) 70%,var(--gold2) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
 
-  .hero-sub{font-family:'Space Mono',monospace;font-size:13px;line-height:1.9;color:var(--muted);max-width:440px;margin-bottom:56px;animation:fadeUp .8s ease .2s both;}
+  .hero-sub{font-family:'Space Mono',monospace;font-size:13px;line-height:1.8;color:var(--text);opacity:.85;max-width:520px;margin-bottom:56px;animation:fadeUp .8s ease .2s both;}
   .hero-ctas{display:flex;gap:14px;align-items:center;animation:fadeUp .8s ease .3s both;}
   @keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
 
@@ -176,7 +176,7 @@
   .step-icon{width:46px;height:46px;border:1px solid var(--border);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:22px;transition:border-color .3s;}
   .step:hover .step-icon{border-color:rgba(212,168,67,.35);}
   .step h3{font-size:20px;font-weight:700;letter-spacing:-.02em;margin-bottom:12px;}
-  .step p{font-family:'Space Mono',monospace;font-size:11px;line-height:1.9;color:var(--muted);}
+  .step p{font-family:'Space Mono',monospace;font-size:12px;line-height:1.8;color:var(--text);opacity:.85;}
 
   /* ZK PULSE */
   .proof-wrap{position:relative;z-index:1;padding:60px 0;display:flex;flex-direction:column;align-items:center;gap:20px;border-top:1px solid var(--border);}
@@ -234,7 +234,7 @@
   .token-name{font-size:clamp(48px,6vw,88px);font-weight:800;letter-spacing:-.035em;line-height:.9;margin-bottom:24px;}
   .token-name .tn-white{color:var(--text);}
   .token-name .tn-gold{color:var(--gold);}
-  .token-desc{font-family:'Space Mono',monospace;font-size:12px;line-height:1.9;color:var(--muted);max-width:420px;margin-bottom:36px;}
+  .token-desc{font-family:'Space Mono',monospace;font-size:13px;line-height:1.8;color:var(--text);opacity:.85;max-width:520px;margin-bottom:36px;}
   .token-ca{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:16px 20px;margin-bottom:32px;cursor:pointer;transition:border-color .2s;}
   .token-ca:hover{border-color:rgba(212,168,67,.4);}
   .token-ca-label{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:4px;}
@@ -277,7 +277,7 @@
     nav{padding:16px 20px;} nav ul{display:none;}
     .hero{padding:90px 20px 60px;}
     .hero-title{font-size:clamp(36px,12vw,68px) !important;line-height:.92;}
-    .hero-sub{font-size:11px;max-width:100%;}
+    .hero-sub{font-size:12px;max-width:100%;}
     .hero-ctas{flex-direction:column;align-items:stretch;gap:10px;}
     .btn-primary,.btn-ghost{text-align:center;padding:14px 20px;}
     .tracker{padding:60px 20px;}
@@ -334,7 +334,7 @@
   .gloss-row:hover{background:rgba(212,168,67,.02);}
   .gloss-term{font-size:14px;font-weight:700;letter-spacing:-.01em;color:var(--text);line-height:1.4;}
   .gloss-aka{font-family:'Space Mono',monospace;font-size:11px;color:rgba(212,168,67,.75);margin-top:3px;letter-spacing:.08em;}
-  .gloss-def{font-family:'Space Mono',monospace;font-size:10px;line-height:1.85;color:var(--muted);}
+  .gloss-def{font-family:'Space Mono',monospace;font-size:12px;line-height:1.8;color:var(--text);opacity:.85;}
 
   .glossary-empty{display:flex;flex-direction:column;align-items:center;gap:10px;padding:60px 20px;text-align:center;min-height:320px;justify-content:center;}
   .ge-icon{font-size:24px;opacity:.3;}
@@ -362,9 +362,9 @@
   .rankcard-section{position:relative;z-index:1;padding:100px 48px;border-top:1px solid var(--border);overflow:hidden;}
   .rankcard-section::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:800px;height:500px;background:radial-gradient(ellipse,rgba(212,168,67,.04) 0%,transparent 70%);pointer-events:none;}
   .rankcard-layout{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;}
-  .rankcard-title{font-size:clamp(32px,4.5vw,56px);font-weight:800;letter-spacing:-.03em;line-height:.95;margin-bottom:14px;}
+  .rankcard-title{font-size:clamp(36px,5vw,70px);font-weight:800;letter-spacing:-.03em;line-height:1;margin-bottom:32px;}
   .rankcard-title span{color:var(--gold);}
-  .rankcard-sub{font-family:'Space Mono',monospace;font-size:11px;line-height:1.9;color:var(--muted);margin-bottom:36px;max-width:360px;}
+  .rankcard-sub{font-family:'Space Mono',monospace;font-size:13px;line-height:1.8;color:var(--text);opacity:.85;margin-bottom:36px;max-width:520px;}
 
   .rc-form{display:flex;flex-direction:column;gap:20px;}
   .rc-field{display:flex;flex-direction:column;gap:8px;}
@@ -404,7 +404,7 @@
   .app-tag{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;opacity:.8;}
   .app-heading{font-size:clamp(36px,5vw,60px);font-weight:800;letter-spacing:-.035em;line-height:.92;margin-bottom:24px;}
   .app-heading span{background:linear-gradient(120deg,var(--gold2) 0%,var(--gold-bright) 45%,var(--gold) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
-  .app-sub{font-family:'Space Mono',monospace;font-size:12px;line-height:1.9;color:var(--muted);max-width:400px;margin-bottom:44px;}
+  .app-sub{font-family:'Space Mono',monospace;font-size:13px;line-height:1.8;color:var(--text);opacity:.85;max-width:520px;margin-bottom:44px;}
   .app-steps-label{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;}
   .app-steps{display:flex;flex-direction:column;border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-bottom:20px;}
   .app-step{display:flex;align-items:flex-start;gap:16px;padding:18px 20px;border-bottom:1px solid var(--border);background:linear-gradient(145deg,rgba(12,12,12,1),rgba(5,5,5,1));transition:background .2s;}
@@ -706,7 +706,7 @@
       <div class="wc-vol" id="jjMcap">MCap: ——</div>
       <div class="wc-vol" id="jjChange" style="margin-top:2px;">24h: ——</div>
       <div class="wc-bar"><div class="wc-bar-fill" id="jjBar" style="width:0%"></div></div>
-      <div style="margin-top:10px;font-family:'Space Mono',monospace;font-size:11px;color:var(--muted);line-height:1.6;">
+      <div style="margin-top:10px;font-family:'Space Mono',monospace;font-size:12px;color:var(--text);opacity:.85;line-height:1.75;">
         100% of trading fees donated to @ZcashFoundation 🛡️
       </div>
     </div>
@@ -722,7 +722,7 @@
       <div class="wc-vol" id="zolMcap">MCap: ——</div>
       <div class="wc-vol" id="zolChange" style="margin-top:2px;">24h: ——</div>
       <div class="wc-bar"><div class="wc-bar-fill" id="zolBar" style="width:0%"></div></div>
-      <div style="margin-top:10px;font-family:'Space Mono',monospace;font-size:11px;color:var(--muted);line-height:1.6;">
+      <div style="margin-top:10px;font-family:'Space Mono',monospace;font-size:12px;color:var(--text);opacity:.85;line-height:1.75;">
         Solana's original name was Zolana — lore reborn as a community token
       </div>
     </div>
@@ -770,14 +770,9 @@
     <div class="rankcard-left">
       <div class="section-tag">Community</div>
       <h2 class="rankcard-title">Shield <span>Badge</span></h2>
-      <p class="rankcard-sub">Choose your identity. Pick your class, enter your handle, and generate a unique badge for your profile pic.</p>
+      <p class="rankcard-sub">Display your identity with pride. Press Generate Badge multiple times on each class to view a variety of different colour palettes.</p>
 
       <div class="rc-form">
-        <div class="rc-field">
-          <label class="rc-label">Handle</label>
-          <input type="text" id="rcHandle" class="rc-input" placeholder="@yourname" maxlength="16" autocomplete="off" />
-        </div>
-
         <div class="rc-field">
           <label class="rc-label">Class</label>
           <div class="rc-class-grid" id="rcClassGrid">
@@ -1346,7 +1341,6 @@ const rcCtx = rcCanvas.getContext('2d');
 const rcClassGrid = document.getElementById('rcClassGrid');
 const rcGenerate = document.getElementById('rcGenerate');
 const rcDownload = document.getElementById('rcDownload');
-const rcHandleInput = document.getElementById('rcHandle');
 
 let rcClass = 'shielder';
 let rcSeed = Math.random();
@@ -1708,7 +1702,6 @@ function drawHalftone(ctx, S, color, density, dotSize, opacity) {
 function drawBadge() {
   const S = 512, C = S/2;
   const cls = RC_CLASSES[rcClass];
-  const handle = rcHandleInput.value.trim() || '@anon';
   const mainColor = cls.color;
   const rgb = hexRgb(mainColor);
   const s = rcSeed * 10000;
@@ -1730,49 +1723,57 @@ function drawBadge() {
   drawCrest(rcCtx, C, C + 8, 1.6, pal, rcClass);
 
   // === OUTER RING — BLACK, THICK ===
-  // Outer black band
   rcCtx.strokeStyle = '#000000';
-  rcCtx.lineWidth = 28;
+  rcCtx.lineWidth = 30;
   rcCtx.beginPath(); rcCtx.arc(C, C, 242, 0, Math.PI * 2); rcCtx.stroke();
 
-  // Inner edge of the band — thin gold accent
-  rcCtx.strokeStyle = pal.bg;
-  rcCtx.globalAlpha = 0.4;
+  // Outer gold ring edge
+  rcCtx.strokeStyle = '#F5D778';
+  rcCtx.globalAlpha = 0.9;
   rcCtx.lineWidth = 1.5;
-  rcCtx.beginPath(); rcCtx.arc(C, C, 229, 0, Math.PI * 2); rcCtx.stroke();
+  rcCtx.beginPath(); rcCtx.arc(C, C, 257, 0, Math.PI * 2); rcCtx.stroke();
   rcCtx.globalAlpha = 1;
 
-  // === HANDLE TEXT — TOP ARC — LARGE, WELL SPACED ===
-  const handleText = handle.toUpperCase();
+  // Inner gold ring edge
+  rcCtx.strokeStyle = '#D4A843';
+  rcCtx.globalAlpha = 0.85;
+  rcCtx.lineWidth = 2;
+  rcCtx.beginPath(); rcCtx.arc(C, C, 228, 0, Math.PI * 2); rcCtx.stroke();
+  rcCtx.globalAlpha = 1;
+
+  // === TOP ARC — SHIELDFI BRAND ===
+  const brandText = '✦  SHIELDFI  ✦';
   rcCtx.save();
-  rcCtx.font = '800 20px "Syne", sans-serif';
+  rcCtx.font = '800 16px "Syne", sans-serif';
   rcCtx.textAlign = 'center';
   rcCtx.textBaseline = 'middle';
 
   const textRadius = 242;
-  // Dynamic spacing — more space between chars
-  const charAngle = 0.065;
-  const totalAngle = handleText.length * charAngle;
+  const charAngle = 0.082;
+  const totalAngle = brandText.length * charAngle;
   const startAngle = -Math.PI / 2 - totalAngle / 2;
 
-  // Text shadow (dark, offset)
-  for (let i = 0; i < handleText.length; i++) {
+  for (let i = 0; i < brandText.length; i++) {
     const a = startAngle + i * charAngle + charAngle / 2;
     rcCtx.save();
-    rcCtx.translate(C + Math.cos(a) * textRadius + 1.5, C + Math.sin(a) * textRadius + 1.5);
+    rcCtx.translate(C + Math.cos(a) * textRadius + 2, C + Math.sin(a) * textRadius + 2);
     rcCtx.rotate(a + Math.PI / 2);
-    rcCtx.fillStyle = 'rgba(0,0,0,0.7)';
-    rcCtx.fillText(handleText[i], 0, 0);
+    rcCtx.fillStyle = 'rgba(0,0,0,0.85)';
+    rcCtx.fillText(brandText[i], 0, 0);
     rcCtx.restore();
   }
-  // Text fill — bright white
-  for (let i = 0; i < handleText.length; i++) {
+  for (let i = 0; i < brandText.length; i++) {
     const a = startAngle + i * charAngle + charAngle / 2;
     rcCtx.save();
     rcCtx.translate(C + Math.cos(a) * textRadius, C + Math.sin(a) * textRadius);
     rcCtx.rotate(a + Math.PI / 2);
-    rcCtx.fillStyle = '#ffffff';
-    rcCtx.fillText(handleText[i], 0, 0);
+    const grd = rcCtx.createLinearGradient(0, -12, 0, 12);
+    grd.addColorStop(0, '#FFF5CC');
+    grd.addColorStop(0.35, '#F5D778');
+    grd.addColorStop(0.65, '#D4A843');
+    grd.addColorStop(1, '#A0720A');
+    rcCtx.fillStyle = grd;
+    rcCtx.fillText(brandText[i], 0, 0);
     rcCtx.restore();
   }
   rcCtx.restore();
@@ -1780,31 +1781,37 @@ function drawBadge() {
   // === CLASS TITLE — BOTTOM ARC ===
   const bottomText = '\u25C6  ' + cls.title + '  \u25C6';
   rcCtx.save();
-  rcCtx.font = '800 16px "Syne", sans-serif';
+  rcCtx.font = '800 17px "Syne", sans-serif';
   rcCtx.textAlign = 'center';
   rcCtx.textBaseline = 'middle';
   const btRadius = 242;
-  const btCharAngle = 0.058;
+  const btCharAngle = 0.060;
   const btTotal = bottomText.length * btCharAngle;
   const btStart = Math.PI / 2 + btTotal / 2;
 
-  // Shadow
+  // Deep shadow
   for (let i = 0; i < bottomText.length; i++) {
     const a = btStart - i * btCharAngle - btCharAngle / 2;
     rcCtx.save();
-    rcCtx.translate(C + Math.cos(a) * btRadius + 1.5, C + Math.sin(a) * btRadius + 1.5);
+    rcCtx.translate(C + Math.cos(a) * btRadius + 2, C + Math.sin(a) * btRadius + 2);
     rcCtx.rotate(a - Math.PI / 2);
-    rcCtx.fillStyle = 'rgba(0,0,0,0.7)';
+    rcCtx.fillStyle = 'rgba(0,0,0,0.85)';
     rcCtx.fillText(bottomText[i], 0, 0);
     rcCtx.restore();
   }
-  // Fill
+
+  // Class color gradient
+  const rgb2 = hexRgb(mainColor);
   for (let i = 0; i < bottomText.length; i++) {
     const a = btStart - i * btCharAngle - btCharAngle / 2;
     rcCtx.save();
     rcCtx.translate(C + Math.cos(a) * btRadius, C + Math.sin(a) * btRadius);
     rcCtx.rotate(a - Math.PI / 2);
-    rcCtx.fillStyle = '#ffffff';
+    const grd2 = rcCtx.createLinearGradient(0, -10, 0, 10);
+    grd2.addColorStop(0, `rgba(${Math.min(255,rgb2.r+80)},${Math.min(255,rgb2.g+80)},${Math.min(255,rgb2.b+80)},1)`);
+    grd2.addColorStop(0.5, mainColor);
+    grd2.addColorStop(1, `rgba(${Math.max(0,rgb2.r-60)},${Math.max(0,rgb2.g-60)},${Math.max(0,rgb2.b-60)},1)`);
+    rcCtx.fillStyle = grd2;
     rcCtx.fillText(bottomText[i], 0, 0);
     rcCtx.restore();
   }
@@ -1828,7 +1835,7 @@ rcClassGrid.addEventListener('click', e => {
   rcClassGrid.querySelectorAll('.rc-class-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   rcClass = btn.dataset.class;
-  rcSeed = Math.random();
+  // Palette only changes on Generate click, not on class switch
   drawBadge();
 });
 
@@ -1843,8 +1850,6 @@ rcDownload.addEventListener('click', () => {
   link.href = rcCanvas.toDataURL('image/png');
   link.click();
 });
-
-rcHandleInput.addEventListener('input', drawBadge);
 
 drawBadge();
 
