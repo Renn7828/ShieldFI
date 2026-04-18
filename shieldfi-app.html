@@ -7,7 +7,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <meta name="apple-mobile-web-app-title" content="Shieldfi" />
-<meta name="description" content="ZEC Ecosystem Hub — Live prices, wrapped ZEC, culture tokens, grants, and glossary" />
+<meta name="description" content="ZEC Ecosystem Hub — Live prices, wrapped ZEC, culture tokens, and glossary" />
 <title>Shieldfi</title>
 
 <!-- Inline PWA manifest -->
@@ -790,7 +790,7 @@
     border-top:1px solid rgba(212,168,67,.1);
     padding: 6px 0 calc(6px + var(--safe-bot));
     display:grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .tabbtn {
     display:flex;
@@ -1040,7 +1040,7 @@
         <span class="l2">ECOSYSTEM</span>
         <span class="l3">TRACKED.</span>
       </h1>
-      <p class="hero-sub">Real-time prices, wrapped ZEC liquidity, culture tokens, and grant pipeline — always on.</p>
+      <p class="hero-sub">Real-time prices, wrapped ZEC liquidity, culture tokens, and glossary — always on.</p>
 
       <div class="feature-strip">
         <div class="feature-track">
@@ -1244,107 +1244,6 @@
   </div>
 
   <!-- ══════════════════════════════════════════════════════════════
-       VIEW 3: GRANTS
-       ══════════════════════════════════════════════════════════════ -->
-  <div class="view" id="view-grants">
-    <div class="section">
-      <div class="section-tag">Funding Pipeline</div>
-      <h2 class="section-title">Grant <em>Pipeline</em> & Updates</h2>
-    </div>
-
-    <div class="grant-banner">
-      <div class="b-icon">◆</div>
-      <div>
-        <div class="b-title">Coinholder-Directed Retroactive Grants — Q2 2026 Round Open</div>
-        <div class="b-sub">The Zcash community is accepting proposals for completed work. Visit the <a href="https://forum.zcashcommunity.com" target="_blank" rel="noopener">Zcash Community Forum</a> for details.</div>
-      </div>
-    </div>
-
-    <div class="stack" style="margin-top:14px;">
-
-      <div class="gcard">
-        <div class="gcard-name">ZecShield — Universal Privacy Bridge (Solana ↔ Zcash)</div>
-        <div class="gcard-meta">Applicant: Andrii Dumitro · Filed: Apr 3, 2026 · 8 months</div>
-        <div class="gcard-note">Developer confirmed continuation as independent project — ZecShield already has a compiled Solana contract, working deposit mechanism, and ready FROST architecture. · ZCG meeting Apr 13.</div>
-        <div class="gcard-foot">
-          <div class="gcard-amount">$48,000</div>
-          <div class="gcard-status s-rejected">✕ Not Approved</div>
-        </div>
-      </div>
-
-      <div class="gcard">
-        <div class="gcard-name">Guided Fuzzing Infrastructure</div>
-        <div class="gcard-meta">Community Grant · ZCG Meeting: Mar 30, 2026</div>
-        <div class="gcard-foot">
-          <div class="gcard-amount">TBD</div>
-          <div class="gcard-status s-active">✓ Approved</div>
-        </div>
-      </div>
-
-      <div class="gcard">
-        <div class="gcard-name">Wrapped Zcash</div>
-        <div class="gcard-meta">Community Grant · ZCG Meeting: Mar 30, 2026</div>
-        <div class="gcard-note">Declined async by ZCG committee.</div>
-        <div class="gcard-foot">
-          <div class="gcard-amount">TBD</div>
-          <div class="gcard-status s-rejected">✕ Declined</div>
-        </div>
-      </div>
-
-      <div class="gcard">
-        <div class="gcard-name">Shielded Micropayments SDK</div>
-        <div class="gcard-meta">Community Grant · ZCG Meeting: Mar 30, 2026</div>
-        <div class="gcard-note">Under review by ZCG committee.</div>
-        <div class="gcard-foot">
-          <div class="gcard-amount">TBD</div>
-          <div class="gcard-status s-review">💬 Under Review</div>
-        </div>
-      </div>
-
-      <div class="gcard">
-        <div class="gcard-name">Zecboat Bridge — FROST-Secured Wrapped Asset (wSOL)</div>
-        <div class="gcard-meta">Community Grant · Last activity: Apr 11, 2026</div>
-        <div class="gcard-foot">
-          <div class="gcard-amount">TBD</div>
-          <div class="gcard-status s-review">💬 In Discussion</div>
-        </div>
-      </div>
-
-      <div class="gcard">
-        <div class="gcard-name">ZecHub 2026 — Education & Community Content</div>
-        <div class="gcard-meta">Renewal · Filed: Dec 4, 2025</div>
-        <div class="gcard-note">Active with regular monthly KPI reports. March 2026: 35 tweets, best tweet at 5,253 impressions. DAO approved Discord Engagement Bot & Zcash India initiative.</div>
-        <div class="gcard-foot">
-          <div class="gcard-amount">TBD</div>
-          <div class="gcard-status s-active">✓ Active</div>
-        </div>
-      </div>
-
-      <div class="gcard">
-        <div class="gcard-name">Zcash Ecosystem Onboarding — Women in DeFi Summit 2026</div>
-        <div class="gcard-meta">ZecHub DAO · Proposal A144</div>
-        <div class="gcard-foot">
-          <div class="gcard-amount">—</div>
-          <div class="gcard-status s-rejected">✕ Rejected</div>
-        </div>
-      </div>
-
-      <div class="gcard">
-        <div class="gcard-name">ZEC Shielded Integration — Cross-Chain Non-Custodial Swaps</div>
-        <div class="gcard-meta">Filed: Jul 2025 · 6 replies</div>
-        <div class="gcard-foot">
-          <div class="gcard-amount">TBD</div>
-          <div class="gcard-status s-review">💬 In Discussion</div>
-        </div>
-      </div>
-
-    </div>
-
-    <div style="padding: 18px; font-family:'Space Mono',monospace; font-size:10px; color:var(--muted); letter-spacing:.08em; text-align:center;">
-      Source: <a href="https://forum.zcashcommunity.com" target="_blank" style="color:var(--gold);text-decoration:none;">forum.zcashcommunity.com</a>
-    </div>
-  </div>
-
   <!-- ══════════════════════════════════════════════════════════════
        VIEW 4: GLOSSARY
        ══════════════════════════════════════════════════════════════ -->
@@ -1467,10 +1366,6 @@
   <button class="tabbtn" data-view="tokens">
     <div class="ic">◆</div>
     Tokens
-  </button>
-  <button class="tabbtn" data-view="grants">
-    <div class="ic">$</div>
-    Grants
   </button>
   <button class="tabbtn" data-view="glossary">
     <div class="ic">?</div>
